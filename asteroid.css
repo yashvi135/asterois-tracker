@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url('./images/nasaimg.jpg');
+}
+.asteroid-img{
+    width: 181px;
+    height: 117px;
+    margin: 41px 29px;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 12px;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.next {
+    background-color: #b7aadb;
+    color: white;
+}
+.calender{
+    position: absolute;
+    bottom: 43%;
+    left: 6.5%;
+    width: 25%;
+}
+.date-picker{
+    padding: 4px 4px;
+    border: 2px;
+    border-radius: 3px;
+    background: #bdb1cb;
+    color: black;
+    font-weight: bolder;
+
+}
+.date-picker:hover{
+    background-color: #7768a1;
+    opacity: 50%;
+}
+
+.submit-btn{
+    padding: 4px 14px;
+    border-radius: 7px;
+    background: #9d9696;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+.submit-btn:hover{
+    color: white;
+    opacity: 80%;
+}
+.info-asteroid{
+    position: absolute;
+    right: 0;
+    color: white;
+    width: 25%;
+    height: 100%;
+    text-align: left;
+    opacity: 83%;
+    background-color: black;
+}
+.info-asteroid img
+{
+   margin: 0% 25% 1% 25%;
+ 
+  width: 50%;
+}
+
